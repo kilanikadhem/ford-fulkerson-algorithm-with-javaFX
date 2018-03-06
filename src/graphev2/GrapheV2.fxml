@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphev2.GrapheV2Controller">
+   <children>
+      <Circle fx:id="s" fill="#14cbcc" layoutX="161.0" layoutY="200.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="n1" fill="#14cbcc" layoutX="306.0" layoutY="95.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="n2" fill="#14cbcc" layoutX="306.0" layoutY="200.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="n3" fill="#14cbcc" layoutX="306.0" layoutY="300.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="t" fill="#14cbcc" layoutX="458.0" layoutY="200.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fx:id="texts" layoutX="158.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S" />
+      <Text fx:id="textn1" layoutX="300.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N1" />
+      <Text fx:id="textn2" layoutX="299.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N2" />
+      <Text fx:id="textn3" layoutX="298.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N3" />
+      <Text fx:id="textt" layoutX="455.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <Line fx:id="arcston1" endX="100.0" layoutX="199.0" layoutY="148.0" rotate="144.5" startX="-33.0" />
+      <Line fx:id="arcston3" endX="100.0" layoutX="199.0" layoutY="250.0" rotate="29.7" startX="-33.0" />
+      <Line fx:id="arcn3tot" endX="100.0" layoutX="348.0" layoutY="250.0" rotate="-38.7" startX="-33.0" />
+      <Line fx:id="arcn1tot" endX="100.0" layoutX="352.0" layoutY="147.0" rotate="29.1" startX="-40.0" />
+      <Line fx:id="arcn1ton2" endX="60.0" layoutX="277.0" layoutY="148.0" rotate="90.0" />
+      <Line fx:id="arcn2ton3" endX="50.0" layoutX="282.0" layoutY="250.0" rotate="90.0" />
+      <Line fx:id="arcston2" endX="64.0" layoutX="219.0" layoutY="200.0" startX="-33.0" />
+      <Line fx:id="arcn2tot" endX="70.0" layoutX="363.0" layoutY="200.0" startX="-33.0" />
+      <Line fx:id="arcn1ton3bis" endX="132.0" layoutX="297.0" layoutY="230.0" rotate="128.7" AnchorPane.bottomAnchor="169.5" AnchorPane.leftAnchor="296.5" AnchorPane.rightAnchor="202.5" AnchorPane.topAnchor="229.5" />
+      <Line fx:id="arcn1ton3" endX="108.0" layoutX="308.0" layoutY="147.0" rotate="36.9" />
+      <Text fx:id="texttton3" fill="#ee0101" layoutX="388.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn3tos" fill="#ee0101" layoutX="228.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn1tos" fill="#ee0101" layoutX="226.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn2tos" fill="#ee0101" layoutX="241.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="texttton1" fill="#ee0101" layoutX="387.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn3ton2" fill="#ee0101" layoutX="284.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn2ton1" fill="#ee0101" layoutX="286.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="texttton2" fill="#ee0101" layoutX="349.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn3ton1" fill="#ee0101" layoutX="363.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn3tot" fill="#159028" layoutX="406.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn1tot" fill="#159028" layoutX="410.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textston3" fill="#159028" layoutX="206.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textston1" fill="#159028" layoutX="206.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textston2" fill="#159028" layoutX="220.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn1ton2" fill="#159028" layoutX="286.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn2ton3" fill="#159028" layoutX="284.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn2tot" fill="#159028" layoutX="330.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textn1ton3" fill="#159028" layoutX="343.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="phi" layoutX="463.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="83.93770718574524">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="img" fitHeight="85.0" fitWidth="201.0" layoutX="404.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <rotationAxis>
+      <Point3D x="100.0" y="100.0" z="1.0" />
+   </rotationAxis>
+</AnchorPane>

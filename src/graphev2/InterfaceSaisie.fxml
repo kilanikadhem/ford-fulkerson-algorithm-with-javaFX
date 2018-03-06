@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphev2.InterfaceSaisieController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="tfston1" layoutX="123.0" layoutY="107.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfston2" layoutX="123.0" layoutY="144.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfston3" layoutX="123.0" layoutY="180.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn1ton2" layoutX="123.0" layoutY="216.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn1ton3" layoutX="123.0" layoutY="253.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn2ton3" layoutX="375.0" layoutY="144.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn2ton1" layoutX="375.0" layoutY="107.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn2tot" layoutX="375.0" layoutY="180.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn3ton1" layoutX="375.0" layoutY="216.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn3ton2" layoutX="375.0" layoutY="253.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn1tot" layoutX="123.0" layoutY="292.0" prefHeight="26.0" prefWidth="52.0" />
+            <TextField fx:id="tfn3tot" layoutX="375.0" layoutY="292.0" prefHeight="26.0" prefWidth="52.0" />
+            <Text layoutX="36.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de noeuds : " />
+            <Text layoutX="52.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S to N1" />
+            <Text layoutX="52.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S to N2" />
+            <Text layoutX="52.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S to N3" />
+            <Text layoutX="52.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N1 to N2" />
+            <Text layoutX="52.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N1 to N3" />
+            <Text layoutX="52.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N1 to T" />
+            <Text layoutX="316.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N2 to N1" />
+            <Text layoutX="316.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N2 to N3" />
+            <Text layoutX="316.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N2 to T" />
+            <Text layoutX="316.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N3 to N1" />
+            <Text layoutX="316.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N3 to N2" />
+            <Text layoutX="316.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N3 to T" />
+            <Button fx:id="btngenerate" layoutX="227.0" layoutY="348.0" mnemonicParsing="false" onAction="#calculFord" text="Générer" />
+            <Button fx:id="btnannuler" layoutX="300.0" layoutY="348.0" mnemonicParsing="false" onAction="#Annuler" text="Annuler" />
+            <ComboBox fx:id="choix" layoutX="205.0" layoutY="48.0" onAction="#disabledInputs" prefWidth="150.0" />
+            <ImageView fx:id="img" fitHeight="110.0" fitWidth="225.0" layoutX="361.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
